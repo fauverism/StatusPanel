@@ -89,3 +89,16 @@ body {
     border-bottom: 0;
   }
 }
+
+ul.violations {
+  li {
+    border: 1px solid #ccc;
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+    display: inline-block;
+  }
+  .level {
+    background: greenyellow;
+  }
+}
